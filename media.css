@@ -1,0 +1,23 @@
+@media(max-width: 600px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}
+
+
+
+@media(max-width: 480px) {
+    .h1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .h1 h1 {
+        font-size: 200px;
+    }
+}
